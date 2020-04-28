@@ -1,0 +1,21 @@
+const color_box = document.querySelector("#color_box");
+
+const gray_button = document.querySelector("#gray_button");
+gray_button.addEventListener("click", function () {
+    color_box.className = "gray";
+})
+
+const blue_button = document.querySelector("#blue_button");
+blue_button.addEventListener("click", function () {
+    color_box.className = "blue";
+})
+
+let count = 0;
+const countspan = document.querySelector("#countspan");
+const counter_button = document.querySelector("#counter_button");
+counter_button.addEventListener("click", function () {
+
+    const even_or_odd_button = document.querySelector("#even_or_odd_button");
+even_or_odd_button.addEventListener("click", function () {
+
+    
