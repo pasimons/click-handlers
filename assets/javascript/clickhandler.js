@@ -23,6 +23,14 @@ let count = 0;
 const countspan = document.querySelector("#countspan");
 const counter_button = document.querySelector("#counter_button");
 counter_button.addEventListener("click", function () {
+
+    console.log ("+ button clicked")
+
+    let newValue = parseInt(countspan.innerHTML) +1;
+
+    countspan.innerHTML=newValue;
+
+
     /* TODO 2
     *
     * Fill in this function so that it increments
@@ -33,6 +41,16 @@ counter_button.addEventListener("click", function () {
 })
 const even_or_odd_button = document.querySelector("#even_or_odd_button");
 even_or_odd_button.addEventListener("click", function () {
+
+    if (num % 2==0)
+
+    {
+        
+    }
+
+
+
+
     /* TODO 3
     *
     * Fill in this function so that it shows an
